@@ -1,14 +1,17 @@
-# Nerfies
+# EvHDR-GS: Event-guided HDR Video Reconstruction with 3D Gaussian Splatting
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+[EvHDR-GS: Event-guided HDR Video Reconstruction with 3D Gaussian Splatting](https://zehaoc.github.io/EvHDR-GS/).
 
-If you find Nerfies useful for your work please cite:
+If you find Event-LE useful for your work please cite:
 ```
-@article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+@inproceedings{chen2025evhdr,
+  title={EvHDR-GS: Event-guided HDR Video Reconstruction with 3D Gaussian Splatting},
+  author={Chen, Zehao and Lu, Zhan and Ma, De and Tang, Huajin and Jiang, Xudong and Zheng, Qian and Pan, Gang},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  number={3},
+  pages={2367--2375},
+  year={2025}
 }
 ```
 

@@ -1,9 +1,34 @@
 # EvHDR-GS: Event-guided HDR Video Reconstruction with 3D Gaussian Splatting
 
-[EvHDR-GS: Event-guided HDR Video Reconstruction with 3D Gaussian Splatting](https://zehaoc.github.io/EvHDR-GS/).
+Official PyTorch implementation and project website for **EvHDR-GS** (AAAI 2025).
 
-If you find Event-LE useful for your work please cite:
-```
+**Links**
+
+- [Project page](https://zehaoc.github.io/EvHDR-GS/)
+- [Paper (AAAI)](https://ojs.aaai.org/index.php/AAAI/article/view/32237)
+- [This repository](https://github.com/Zehaoc/EvHDR-GS)
+
+## Abstract
+
+High Dynamic Range (HDR) video reconstruction seeks to accurately restore the extensive dynamic range present in real-world scenes. Existing methods often operate on only a few consecutive frames, which can yield inconsistent brightness across the video, and supervised approaches may suffer from data bias under domain shift. EvHDR-GS builds **3D Gaussian Splatting (3DGS)** with event guidance for temporally consistent HDR reconstruction, using **HDR 3D Gaussians** and a learnable HDR-to-LDR mapping driven by event streams and LDR frames.
+
+## Repository layout
+
+| Path | Description |
+|------|-------------|
+| `index.html`, `static/` | GitHub Pages project site |
+| `code/` | Training and rendering code (`train.py`, `scene/`, `utils/`, …) |
+| `image/` | Figures used on the project page |
+
+## Contact
+
+If you have any questions, please contact us by email.
+
+## Citation
+
+If you find EvHDR-GS useful, please cite:
+
+```bibtex
 @inproceedings{chen2025evhdr,
   title={EvHDR-GS: Event-guided HDR Video Reconstruction with 3D Gaussian Splatting},
   author={Chen, Zehao and Lu, Zhan and Ma, De and Tang, Huajin and Jiang, Xudong and Zheng, Qian and Pan, Gang},
@@ -15,5 +40,8 @@ If you find Event-LE useful for your work please cite:
 }
 ```
 
-# Website License
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+## License
+
+The project website is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/).
+
+[![CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)

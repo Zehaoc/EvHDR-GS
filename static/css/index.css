@@ -110,6 +110,22 @@ body {
 .publication-body img {
 }
 
+.abstract-figures {
+  margin-top: 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+}
+
+.abstract-figures img {
+  max-width: min(420px, 100%);
+  width: auto;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
 .results-carousel {
   overflow: hidden;
 }

@@ -17,7 +17,7 @@ High Dynamic Range (HDR) video reconstruction seeks to accurately restore the ex
 | Path | Description |
 |------|-------------|
 | `index.html`, `static/` | GitHub Pages project site |
-| `code/` | Training and rendering code (`train.py`, `scene/`, `utils/`, …) |
+| `code/` | Training and rendering code (`train.py`, `scene/`, `utils/`, …); see `code/README.md` |
 | `image/` | Figures used on the project page |
 
 ## Contact
